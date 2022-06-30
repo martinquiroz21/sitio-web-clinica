@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinica Unlam</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles-turnos.css">
+    <link rel="shortcut icon" href="img/logo_unlam.png">
+</head>
+<body>
+    <header>
+      <div class="sticky-top shadow">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light lg mx-4">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><img class="img-fluid" src="img/logo_unlam.jpg" alt="logo-hospital"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link fw-bold" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Acerca de la Clinica</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Especialidades
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Psiquiatría</a></li>
+                        <li><a class="dropdown-item" href="#">Cardiología</a></li>
+                        <li><a class="dropdown-item" href="#">Hematología</a></li>
+                        <li><a class="dropdown-item" href="#">Clínica Médica</a></li>
+                        <li><a class="dropdown-item" href="#">Pediatría</a></li>
+                    </li>
+                  </ul>
+                    <li class="nav-item">
+                      <a class="nav-link text-primary fw-bold border-bottom border-primary border-2" href="#">Consulta Online</a>
+                    </li>
+              </div>
+              <div class="list-unstyled collapse navbar-collapse text-center justify-content-end" id="navbarSupportedContent">
+                  <button type="button" class="btn btn-light fs-8 text-secondary">Registrarse</button>
+                  <button type="button" class="btn btn-primary text-white">Iniciar Sesión</button>
+              </div>
+            </div>
+          </nav>
+        </div>
+    </header>
+    <main>
+        <section class="seccion-1">
+            <p>Por favor, seleccione un servicio.</p>
+            <div class="servicios">
+                <label for="especialidad">Especialidad</label>
+				<select name="especialidad" id="especialidad">
+                    <option value="0">Seleccione especialidad</option>
+				    <option value="a">Psiquiatría</option>
+					<option value="b">Cardiología</option>
+					<option value="c">Hematología</option>
+					<option value="d">Clínica Médica</option>
+                    <option value="e">Pediatría</option>
+				</select>
+
+                <label for="profesional">Profesional</label>
+				<select name="profesional" id="profesional">
+                    <option value="0">Cualquiera</option>
+				    <option value="f">Dr. Ramirez Luciano</option>
+					<option value="g">Dra. Bogado María Paz</option>
+					<option value="h">Dra. Benitez Alicia</option>
+					<option value="i">Dr. Gauna Anibal</option>
+                    <option value="j">Dra. Aguado Carina</option>
+				</select>
+            </div>
+            <div class="linea"></div>
+            <div class="btn-siguiente">
+                <a href="formulario-alerta.html">Siguiente</a>
+            </div>
+        </section>
+    </main>
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top sticky-bottom px-4">
+        <p class="col-md-4 mb-0 text-muted">&copy; 2021 Clinica Unlam</p>
+    
+        <ul class="nav col-md-4 justify-content-end fs-4">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><i class="fas fa-map-marker-alt text-primary"></i></a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><i class="fab fa-facebook-square text-primary"></i></a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><i class="fab fa-twitter text-primary"></i></a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><i class="fab fa-linkedin text-primary"></i></a></li> 
+        </ul>
+      </footer>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="https://kit.fontawesome.com/ed0b8e39e2.js" crossorigin="anonymous"></script>
+</body>
+</html>

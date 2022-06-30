@@ -1,0 +1,73 @@
+.seccion-1 {
+    width: 20%;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 350px;
+}
+.seccion-1 p {
+    color: #3c3b37;
+    font-size: 20px;
+    font-weight: 500;
+}
+.servicios {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.servicios label {
+    margin-bottom: 4px;
+    color: #3c3b37;
+    font-size: 18px;
+}
+.servicios select {
+    width: 100%;
+    padding: 5px;
+    padding-left: 10px;
+    border: 0;
+    border: 1px solid rgb(165, 165, 165);
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+.linea {
+    background-color: rgb(204, 204, 204);
+    padding-top: 1px;
+    margin-top: 20px;
+}
+.btn-siguiente {
+    display: flex;
+    justify-content: right;
+    margin-top: 20px;
+}
+.btn-siguiente a {
+    text-decoration: none;
+    background: #009a76;
+    padding: 10px;
+    width: 120px;
+    text-align: center;
+    border-radius: 6px;
+    color: white;
+}
+.btn-siguiente a:hover {
+    background: #00a780;
+}
+@media (max-width: 1400px) {
+    .seccion-1 {
+        width: 30%;
+    }
+}
+@media (max-width: 1000px) {
+    .seccion-1 {
+        width: 40%;
+    }
+    .seccion-1 p {
+        font-size: 16px;
+    }
+    .servicios label {
+        font-size: 16px;
+    }
+}
+@media (max-width: 600px) {
+    .seccion-1 {
+        width: 60%;
+    }
+}

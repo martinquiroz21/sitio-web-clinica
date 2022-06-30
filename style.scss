@@ -1,0 +1,15 @@
+$primary: #009a76;
+$secondary: #e5415c;
+$success: #004C3B;
+$white: white;
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success": $success,
+);
+
+$accordion-icon-color: white;
+$accordion-icon-active-color: white;
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss"

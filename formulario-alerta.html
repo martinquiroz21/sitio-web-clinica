@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinica Unlam</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles-formulario.css">
+    <link rel="shortcut icon" href="img/logo_unlam.png">
+</head>
+<body>
+    <header>
+      <div class="sticky-top shadow">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light lg mx-4">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html"><img class="img-fluid" src="img/logo_unlam.jpg" alt="logo-hospital"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link fw-bold" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Acerca de la Clinica</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Especialidades
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Psiquiatría</a></li>
+                        <li><a class="dropdown-item" href="#">Cardiología</a></li>
+                        <li><a class="dropdown-item" href="#">Hematología</a></li>
+                        <li><a class="dropdown-item" href="#">Clínica Médica</a></li>
+                        <li><a class="dropdown-item" href="#">Pediatría</a></li>
+                    </li>
+                  </ul>
+                    <li class="nav-item">
+                      <a class="nav-link text-primary fw-bold border-bottom border-primary border-2" href="index.html">Consulta Online</a>
+                    </li>
+              </div>
+              <div class="list-unstyled collapse navbar-collapse text-center justify-content-end" id="navbarSupportedContent">
+                  <button type="button" class="btn btn-light fs-8 text-secondary">Registrarse</button>
+                  <button type="button" class="btn btn-primary text-white">Iniciar Sesión</button>
+              </div>
+            </div>
+          </nav>
+        </div>
+    </header>
+    <main>
+      <section>
+        <article class="d-none d-md-grid card w-50 mx-auto border-0 shadow mt-4">
+          <p class="border border-primary rounded-3 fw-bold p-4 mt-2">
+              ¿Tiene dos o más de los siguientes síntomas: Fiebre / Tos / Dolor de garganta / Trastornos olfativos o del gusto de inicio reciente?/ Cefalea/ Diarrea o vómitos?/ Convive con alguien con diagnóstico reciente de COVID19?
+          </p>
+          <div class="d-lg-flex justify-content-center">
+            <a href="https://www.argentina.gob.ar/coronavirus/telefonos" class="btn btn-primary btn-lg w-25 my-2 text-white mx-1" role="button" aria-disabled="true">Si</a>
+            <a href="formulario.html" class="btn btn-secondary btn-lg w-25 my-2 text-white mx-1" role="button" aria-disabled="true">No</a>
+          </div>    
+      </article>
+      <article class="d-sm-none card mx-auto border-0 shadow mt-4 px-2">
+        <p class="border border-primary rounded-3 fw-bold p-4 mt-2">
+            ¿Tiene dos o más de los siguientes síntomas: Fiebre / Tos / Dolor de garganta / Trastornos olfativos o del gusto de inicio reciente?/ Cefalea/ Diarrea o vómitos?/ Convive con alguien con diagnóstico reciente de COVID19?
+        </p>
+        <div class="d-flex justify-content-center">
+          <a href="https://www.argentina.gob.ar/coronavirus/telefonos" class="btn btn-primary btn-lg w-25 my-2 text-white mx-1" role="button" aria-disabled="true">Si</a>
+          <a href="formulario.html" class="btn btn-secondary btn-lg w-25 my-2 text-white mx-1" role="button" aria-disabled="true">No</a>
+        </div>    
+    </article>
+      </section>
+        <section class="seccion-1">
+            <article class="art-1">
+                <div class="img-logo">
+                    <img src="/img/logo_unlam.png" alt="">
+                </div>
+                <div class="linea"></div>
+            </article>
+           
+            <article class="art-2">
+                <div class="txt-form">
+                    <p>Formulario</p>
+                </div>
+                <div class="txt-parrafo1">
+                  <p>Por favor, complete con sus datos este formulario para proceder con la cita.</p>
+                </div>
+                <form action="#" method="GET">
+                  <!-- Nombre y apellido -->
+                  <label for="nombre-apellido">Nombre y Apellido</label>
+                  <input type="text" id="nombre-apellido" placeholder="Ingresar nombre y apellido" size="20" maxlength="50" required>
+                  <!-- Teléfono -->
+                  <label for="telefono">Teléfono</label>
+                  <input type="text" id="telefono" placeholder="011 15-2345-6789" size="20" maxlength="30" required>
+                  <!-- Email -->
+                  <label for="mail">Email</label>
+                  <input type="email" id="mail" name="mail" placeholder="Ingresar email" size="20" maxlength="30" required>
+                  <!-- DNI -->
+                  <label for="dni">DNI</label>
+                  <input type="text" id="dni" name="dni" placeholder="Ingresar dni" size="20" maxlength="30" required>
+                  <!-- Fecha de nacimiento -->
+                  <label for="fecha">Fecha de nacimiento</label>
+                  <input type="date" id="fecha" name="fecha" required>
+                  <!-- Sexo -->
+                  <div class="sexo">
+                    <label for="sexo" id="sex">Sexo</label>
+                    <input type="radio" name="sexo" id="Hombre">
+                    <label for="Hombre">Hombre</label>
+                    <input type="radio" name="sexo" id="Mujer">
+                    <label for="Mujer">Mujer</label>
+                    <input type="radio" name="sexo" id="Otro">
+                    <label for="Otro">Otro</label>
+                  </div>
+                  <div class="btn-enviar">
+                    <input type="submit" value="Enviar">
+                  </div>
+                </form>
+                <div class="txt-parrafo2">
+                  <p>*Una vez que le de a enviar, sus datos serán revisados y luego el turno se confirmará vía email. Ante alguna duda nos comunicaremos telefónicamente.</p>
+                </div>
+            </article>
+        </section>
+    </main>
+    <div class="container-fluid">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top sticky-bottom px-4">
+        <p class="col-md-4 mb-0 text-muted">&copy; 2021 Clinica Unlam</p>
+    
+        <ul class="nav col-md-4 justify-content-end fs-4">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><i class="fas fa-map-marker-alt text-primary"></i></a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><i class="fab fa-facebook-square text-primary"></i></a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><i class="fab fa-twitter text-primary"></i></a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><i class="fab fa-linkedin text-primary"></i></a></li> 
+        </ul>
+      </footer>
+    </div>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="https://kit.fontawesome.com/ed0b8e39e2.js" crossorigin="anonymous"></script>
+</body>
+</html>

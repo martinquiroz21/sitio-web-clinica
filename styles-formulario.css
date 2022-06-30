@@ -1,0 +1,97 @@
+.seccion-1 {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 60px;
+}
+.art-1 .img-logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.art-1 .linea {
+    background-color: rgb(245, 245, 245);
+    padding-top: 1.5px;
+}
+.art-2 {
+    width: 40%;
+    margin: auto;
+}
+.txt-form p {
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 40px;
+    color: #009a76;
+}
+.txt-parrafo1 {
+    color: #3c3b37;
+    margin-bottom: 40px;
+}
+.art-2 label {
+    display: block;
+    color: #3c3b37;
+    font-size: 18px;
+    padding-bottom: 4px;
+}
+.art-2 input {
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 5px;
+    padding-left: 10px;
+    border: 0;
+    border: 1px solid rgb(165, 165, 165);
+    border-radius: 6px;
+}
+.sexo label {
+    display: inline;
+}
+.sexo input {
+    width: 7%;
+}
+#sex {
+    display: block;
+}
+.btn-enviar {
+    display: flex;
+    justify-content: right;
+}
+.btn-enviar input {
+    margin-top: 20px;
+    width: 30%;
+    border: 0;
+    background: #009a76;
+    padding: 10px;
+    color: white;
+}
+.btn-enviar input:hover {
+    background: #00a780;
+}
+.txt-parrafo2 {
+    color: #5a5a5a;
+    font-size: 14px;
+    font-weight: 500;
+}
+@media (max-width: 1400px) {
+    .seccion-1 {
+        width: 70%;
+    }
+    .art-2 {
+        width: 45%;
+    }
+}
+@media (max-width: 1000px) {
+    .seccion-1 {
+        width: 80%;
+    }
+    .art-2 {
+        width: 50%;
+    }
+    .art-2 label {
+        font-size: 16px;
+    }
+}
+@media (max-width: 600px) {
+    .art-2 {
+        width: 80%;
+    }
+}
